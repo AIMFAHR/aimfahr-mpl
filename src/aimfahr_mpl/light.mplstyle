@@ -1,0 +1,34 @@
+# AIMFAHR · light theme (white ground)
+# Combine with a context: plt.style.use(["aimfahr_mpl.light", "aimfahr_mpl.web"])
+
+# Colour cycle: brand hues, darkened for white, checked for colour-vision deficiency
+axes.prop_cycle: cycler('color', ['C9690C', '1687A9', 'CC2823', '005DC9', '06915F', '703DC6', '9E840A', 'C32E85'])
+
+figure.facecolor: FFFFFF
+figure.edgecolor: FFFFFF
+axes.facecolor:   FFFFFF
+savefig.facecolor: auto
+savefig.edgecolor: auto
+
+text.color:        0B1F3B
+axes.titlecolor:   0B1F3B
+axes.labelcolor:   4A5A78
+xtick.color:       C3CDDC
+ytick.color:       C3CDDC
+xtick.labelcolor:  4A5A78
+ytick.labelcolor:  4A5A78
+axes.edgecolor:    C3CDDC
+grid.color:        E6EBF2
+legend.labelcolor: 0B1F3B
+
+patch.edgecolor:   FFFFFF
+patch.force_edgecolor: True
+hatch.color:       4A5A78
+
+boxplot.boxprops.color:      4A5A78
+boxplot.whiskerprops.color:  4A5A78
+boxplot.capprops.color:      4A5A78
+boxplot.medianprops.color:   C9690C
+boxplot.flierprops.markeredgecolor: 4A5A78
+
+image.cmap: viridis

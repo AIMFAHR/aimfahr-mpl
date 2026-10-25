@@ -1,0 +1,81 @@
+# AIMFAHR · poster context: Posters, read from 1–2 m
+# Combine with a theme: plt.style.use(["aimfahr_mpl.dark", "aimfahr_mpl.poster"])
+
+figure.figsize:   12, 8
+figure.dpi:       100
+savefig.dpi:      300
+
+font.size:        28
+axes.titlesize:   34
+axes.titlepad:    18
+axes.labelsize:   28
+axes.labelpad:    11
+xtick.labelsize:  24
+ytick.labelsize:  24
+legend.fontsize:  24
+legend.title_fontsize: 24
+figure.titlesize: 36
+figure.titleweight: 600
+
+lines.linewidth:  4.5
+lines.markersize: 13
+patch.linewidth:  2.25
+axes.linewidth:   1.6
+grid.linewidth:   1.4
+xtick.major.size: 7
+ytick.major.size: 7
+xtick.minor.size: 3.9
+ytick.minor.size: 3.9
+xtick.major.width: 1.6
+ytick.major.width: 1.6
+xtick.minor.width: 1.20
+ytick.minor.width: 1.20
+xtick.major.pad:  6.3
+ytick.major.pad:  6.3
+boxplot.boxprops.linewidth: 2.70
+boxplot.whiskerprops.linewidth: 2.70
+boxplot.capprops.linewidth: 2.70
+boxplot.medianprops.linewidth: 4.50
+
+# ---- shared layout (applies to every context) ----
+font.family:      sans-serif
+font.sans-serif:  Montserrat, Inter, Helvetica Neue, Arial, DejaVu Sans
+mathtext.fontset: dejavusans
+axes.unicode_minus: True
+axes.formatter.use_mathtext: True
+axes.formatter.limits: -3, 4
+
+axes.spines.top:   False
+axes.spines.right: False
+axes.axisbelow:    True
+axes.grid:         True
+axes.grid.which:   major
+grid.linestyle:    -
+grid.alpha:        1.0
+axes.titlelocation: left
+axes.titleweight:  600
+axes.labelweight:  500
+axes.xmargin:      0.02
+axes.ymargin:      0.05
+
+xtick.direction:   out
+ytick.direction:   out
+xtick.minor.visible: False
+ytick.minor.visible: False
+
+legend.frameon:    False
+legend.handlelength: 1.6
+legend.borderaxespad: 0.4
+legend.columnspacing: 1.2
+
+lines.solid_capstyle: round
+lines.dash_capstyle:  round
+scatter.edgecolors:   face
+errorbar.capsize:     0
+image.interpolation:  nearest
+image.aspect:         auto
+pcolormesh.snap:      True
+
+figure.constrained_layout.use: True
+savefig.bbox:      tight
+savefig.pad_inches: 0.15

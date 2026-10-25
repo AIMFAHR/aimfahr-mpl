@@ -1,0 +1,35 @@
+# AIMFAHR · dark theme (navy ground)
+# Combine with a context: plt.style.use(["aimfahr_mpl.dark", "aimfahr_mpl.slides"])
+
+# Colour cycle: brand hues, checked for colour-vision deficiency on this ground
+axes.prop_cycle: cycler('color', ['DC7411', '0CA3BE', 'DA4339', '1E76D8', '16A56E', '855DD7', 'AF930D', 'D45198'])
+
+figure.facecolor: 0B1F3B
+figure.edgecolor: 0B1F3B
+axes.facecolor:   0B1F3B
+savefig.facecolor: auto
+savefig.edgecolor: auto
+
+text.color:        E8EEF7
+axes.titlecolor:   E8EEF7
+axes.labelcolor:   9FB4D6
+xtick.color:       2A4A75
+ytick.color:       2A4A75
+xtick.labelcolor:  9FB4D6
+ytick.labelcolor:  9FB4D6
+axes.edgecolor:    2A4A75
+grid.color:        1B3558
+legend.labelcolor: E8EEF7
+
+# Bars and patches get a ground-coloured edge so adjacent fills stay separate
+patch.edgecolor:   0B1F3B
+patch.force_edgecolor: True
+hatch.color:       9FB4D6
+
+boxplot.boxprops.color:      9FB4D6
+boxplot.whiskerprops.color:  9FB4D6
+boxplot.capprops.color:      9FB4D6
+boxplot.medianprops.color:   DC7411
+boxplot.flierprops.markeredgecolor: 9FB4D6
+
+image.cmap: inferno
